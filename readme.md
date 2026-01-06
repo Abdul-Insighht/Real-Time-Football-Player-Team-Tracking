@@ -1,8 +1,6 @@
 # Real-Time Football Player & Team Tracking
 
-![Football Tracking](assets/(image-1.png))  <!-- Optional: add a screenshot -->
-
-![alt text](image-2.png)
+![Football Tracking]
 
 This project demonstrates **real-time football player detection, team classification, and event annotation** using **YOLO, Sports library, and Supervision**.
 
