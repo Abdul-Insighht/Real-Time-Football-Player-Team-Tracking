@@ -1,143 +1,87 @@
-# Real-Time Football Player & Team Tracking
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Real%20Time%20Football%20Player%20Team%20Tracking&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
 
-<p align="center">
-  <img src="outputs/sample_detection.png" alt="Football Player Detection" width="800"/>
-</p>
+# Real-Time-Football-Player-Team-Tracking
 
-This project demonstrates **real-time football player detection, team classification, and event annotation** using **YOLO, Sports library, and Supervision**.
-
----
-
-## 🎯 Results
-
-| Metric | Value |
-|--------|-------|
-| **Detection Accuracy** | 95%+ |
-| **Players Detected** | All field players |
-| **Team Classification** | Home vs Away |
-| **Ball Tracking** | Real-time |
-| **FPS** | 30+ on GPU |
-
-### Sample Output
-
-The system detects and tracks:
-- ⚽ **Ball** (Gold triangle marker)
-- 🧤 **Goalkeepers** (Red bounding box)
-- 👥 **Players** (Blue ellipses with team classification)
-- 🟡 **Referees** (Lime green annotations)
-- 🔢 **Unique IDs** for persistent tracking
+Real-time football player and team tracking system using YOLO + ByteTrack for multi-object tracking in sports analytics.
 
 ---
 
-## ✨ Features
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
 
-- **Player, Goalkeeper, Referee & Ball Detection**  
-  Detect all key entities on the pitch in real-time.
-
-- **Team Classification**  
-  Classify players into teams using `sports.common.team.TeamClassifier`.
-
-- **Tracking**  
-  Maintain unique IDs for players using `ByteTrack`.
-
-- **Frame Annotation**  
-  Draw bounding boxes, labels, ellipses, and triangles for visual clarity.
-
-- **Video Output**  
-  Generates an annotated video highlighting players, teams, ball, and referees.
-
-### 🎥 Output Video
-
-The processed output video with all detections is available at:
-- `outputs/yolo_output/121364_0.avi` (92 MB)
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
 
 ---
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
-| Category | Technologies |
-|----------|-------------|
-| **Computer Vision** | OpenCV, Supervision |
-| **Object Detection** | YOLO (Ultralytics) |
-| **Tracking** | ByteTrack |
-| **Team Classification** | Roboflow Sports Library |
-| **Deep Learning** | PyTorch |
-| **Environment** | Python 3.10, Conda |
-
----
-
-## 📦 Model Download
-
-Download the trained YOLO model:
 ```
-https://drive.google.com/file/d/1gIQuv32iJtyvfoxLBkG6T2Fklq2P2TBz/view?usp=sharing
+Python, YOLO, ByteTrack, OpenCV, Ultralytics
 ```
 
-## 🎬 Sample Videos
+---
 
+## ðŸš€ Getting Started
+
+1. **Clone the repository**
 ```bash
-!gdown -O "0bfacc_0.mp4" "https://drive.google.com/uc?id=12TqauVZ9tLAv8kWxTTBFWtgt2hNQ4_ZF"
-!gdown -O "2e57b9_0.mp4" "https://drive.google.com/uc?id=19PGw55V8aA6GZu5-Aac5_9mCy3fNxmEf"
-!gdown -O "08fd33_0.mp4" "https://drive.google.com/uc?id=1OG8K6wqUw9t7lp9ms1M48DxRhwTYciK-"
-!gdown -O "573e61_0.mp4" "https://drive.google.com/uc?id=1yYPKuXbHsCxqjA9G-S6aeR2Kcnos8RPU"
-!gdown -O "121364_0.mp4" "https://drive.google.com/uc?id=1vVwjW1dE1drIdd4ZSILfbCGPD4weoNiu"
-```
-
----
-
-## 🚀 Installation
-
-```bash
-# Clone the repository
 git clone https://github.com/Abdul-Insighht/Real-Time-Football-Player-Team-Tracking.git
 cd Real-Time-Football-Player-Team-Tracking
+```
 
-# Create conda environment
-conda create -n football python=3.10 -y
-conda activate football
-
-# Install dependencies
+2. **Install dependencies**
+```bash
 pip install -r requirements.txt
 ```
 
-## 📝 Usage
-
-```python
-# Run inference on a video
-python main.py --video path/to/your/video.mp4
-
-# Or use the Jupyter notebook
-jupyter notebook app.ipynb
-```
-
-## 📓 Notebook
-
-Access the complete notebook:
-```
-https://drive.google.com/file/d/1d33mYdw9VX7agOOGx_PgHp6ZVZykhzdv/view?usp=sharing
+3. **Run the project**
+```bash
+python main.py
 ```
 
 ---
 
-## 📬 Contact
+## â­ Quick Links
 
-**Hafiz Abdul Rehman**
-
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
+â­ [Star this repo](https://github.com/Abdul-Insighht/Real-Time-Football-Player-Team-Tracking) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/Real-Time-Football-Player-Team-Tracking/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/Real-Time-Football-Player-Team-Tracking/issues)
 
 ---
 
-## 🌟 Show Your Support
-
-If you find this project helpful, please consider:
-
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
 
 ---
 
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
+## ðŸ‘¤ Author
+
+<table>
+<tr>
+<td>
+
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
